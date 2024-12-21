@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  },
+  "name": "imaginaryfriend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "author": "Sylvee",
+  "license": "ISC",
+  "description": ""
+}
