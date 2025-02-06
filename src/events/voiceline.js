@@ -3,7 +3,7 @@ module.exports = {
     async execute(message) {
 
         if (message.author.bot || !message.guild) return;
-        const chance = Math.random() * 2500;
+        const chance = Math.random() * 1750;
         const voiceLines = [
             "H-hello.",
             "Hey.",
@@ -67,7 +67,7 @@ module.exports = {
             "Something is coming!",
         ];
         const voiceLine = voiceLines[Math.floor(Math.random() * voiceLines.length)];
-        if (chance < 2499) {
+        if (chance < 1749) {
             return;
           } else {
             message.channel.send(`${voiceLine}`);
