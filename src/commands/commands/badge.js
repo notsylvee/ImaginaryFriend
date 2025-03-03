@@ -17,8 +17,7 @@ module.exports = {
 
       const embed = new EmbedBuilder()
       .setColor("f3b3a2")
-      .setTitle(
-      `<:pressure:1318713179613958226> ${interaction.member.displayName}, your Pressure Badge is... ${badge.name}`)
+      .setTitle(`${badge.name}`)
       .setDescription(`${badge.description}`)
       .setThumbnail(badge.url)
 
