@@ -16,7 +16,7 @@ module.exports = {
       const badge = badges[Math.floor(Math.random() * badges.length)];
 
       const embed = new EmbedBuilder()
-      .setColor("f3b3a2")
+      .setColor("98211e")
       .setTitle(`${badge.name}`)
       .setDescription(`${badge.description}`)
       .setThumbnail(badge.url)
