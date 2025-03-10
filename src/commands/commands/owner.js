@@ -105,7 +105,7 @@ module.exports = {
     switch (command) {
       case "ls":
         const { options } = interaction;
-        const guild = options.getString("server");
+        const guild = options.getString("s");
         await interaction.deferReply({ ephemeral: true });
 
         async function sendMessage(message) {
@@ -215,7 +215,7 @@ module.exports = {
     switch (command) {
       case "si":
         const { options } = interaction;
-        const server = options.getString("server");
+        const server = options.getString("s");
 
         client.guilds.cache
           .get(`${server}`)
