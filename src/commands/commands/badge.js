@@ -21,6 +21,6 @@ module.exports = {
       .setDescription(`${badge.description}`)
       .setThumbnail(badge.url)
 
-      interaction.reply({ embeds: [embed] });
+      await interaction.reply({ embeds: [embed] });
     },
 };
