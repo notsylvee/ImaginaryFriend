@@ -70,7 +70,7 @@ module.exports = {
             "Something is coming!",
         ];
         const voiceLine = voiceLines[Math.floor(Math.random() * voiceLines.length)];
-        if (chance < 245) {
+        if (chance < 249) {
             return;
           } else {
             message.channel.send(`${voiceLine}`);
