@@ -1,5 +1,6 @@
 const { REST } = require("@discordjs/rest");
 const { Routes } = require('discord-api-types/v9');
+const { SlashCommandBuilder } = require("discord.js");
 const fs = require('fs');
 
 const clientId = '1318490033464021032'; 
