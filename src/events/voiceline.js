@@ -68,6 +68,7 @@ module.exports = {
             "It's coming this way!",
             "Watch out!",
             "Something is coming!",
+            "You're defective."
         ];
         const voiceLine = voiceLines[Math.floor(Math.random() * voiceLines.length)];
         if (chance < 249) {
