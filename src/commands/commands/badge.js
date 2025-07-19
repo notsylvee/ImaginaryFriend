@@ -8,9 +8,7 @@ module.exports = {
 
     async execute(interaction) {
 
-      const badgesJsonData = await fs.readFile("data/badges.json", {
-        encoding: "utf8",
-      });
+      const badgesJsonData = await fs.readFile("data/badges.json", {encoding: "utf8"});
       const badgesMap = JSON.parse(badgesJsonData);
       const badges = badgesMap["badges"];
       const badge = badges[Math.floor(Math.random() * badges.length)];
