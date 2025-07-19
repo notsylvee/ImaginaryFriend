@@ -13,6 +13,6 @@ module.exports = {
         const voicelines = voicelinesMap["sebby"];
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
         
-        message.channel.send(`<:ImaginaryFriend:1395290833942745088> ${voiceline}`);
+        message.channel.send(`<:ImaginaryFriend:1395290833942745088> ${voiceline.text}`);
     },
 };
