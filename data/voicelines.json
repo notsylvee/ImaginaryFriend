@@ -113,11 +113,6 @@
         { "text": "Your organs aren't where they should be." },
         { "text": "You're gonna die down here." }
     ],
-    "sebby": [
-        { "text": "As you wish." },
-        { "text": "I'm sorry, Sebastian." },
-        { "text": "Sure thing." }
-    ],
     "angler": [
         { "text": "Don't let it see you." },
         { "text": "It's coming this way!" },
